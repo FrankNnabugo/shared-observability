@@ -51,7 +51,8 @@ dependencies {
     implementation 'org.slf4j:slf4j-api'
 
     /* ---- Feign (plain) ---- */
-    implementation 'io.github.openfeign:feign-core'
+    // Source: https://mvnrepository.com/artifact/io.github.openfeign/feign-core
+    implementation 'io.github.openfeign:feign-core:12.4'
 
     /* ---- Actuator + Metrics ---- */
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
