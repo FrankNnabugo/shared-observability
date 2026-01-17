@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: shared-observability
+
+  profiles:
+    active: dev
